@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "default";
+  src: url(https://sachicodex.github.io//assets/fonts/ethnocentric.otf);
+}
+
+:root {
+  --primary-text-color: #eef0ff;
+  --title-color: linear-gradient(180deg, #e9e5fa, #cbbeff);
+  --title-font: "default";
+  --btn-gradient: linear-gradient(
+    to bottom,
+    #870000 0%,
+    #190a05 100%,
+    #870000 200%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#smooth-wrapper {
+  height: 100dvh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#smooth-content {
+  height: 100dvh;
+}
