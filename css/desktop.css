@@ -21,13 +21,6 @@
   list-style: none;
 }
 
-#smooth-wrapper {
-  height: 100dvh;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-#smooth-content {
-  height: 100dvh;
+body{
+  overflow: scroll;
 }
